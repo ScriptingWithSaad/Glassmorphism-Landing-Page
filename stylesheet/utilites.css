@@ -1,0 +1,178 @@
+.width-1 {
+    width: 100%;
+}
+
+.width-2 {
+    width: 80%;
+}
+
+.height-1 {
+    width: 100%;
+}
+
+.height-2 {
+    width: 80%;
+}
+
+.d-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.shadow {
+    text-shadow: 0px 3px 2px gainsboro;
+}
+
+
+/* java class  */
+
+.menu-add {
+    transform: translateX(0%);
+}
+
+
+/* media  */
+
+@media (max-width:711px) {
+    header .header .end .mid {
+        width: 60%;
+    }
+    header .header .end .mid h2 {
+        animation: none;
+    }
+    header .header .end .mid h1 {
+        width: 50%;
+    }
+    header .header .end .mid h3 {
+        animation: none;
+    }
+    header .header .end .last .main-last-first .last-fist h3 {
+        width: 4px;
+        height: 4px;
+        margin: 2px;
+    }
+}
+
+@media (max-width:1148px) {
+    header .header .mid .content h1 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width:1023px) {
+    header .header .mid .content h1 {
+        font-size: 25px;
+    }
+    header .header .mid .content p {
+        font-size: 16px;
+    }
+    header .header .mid .img img {
+        width: 70%;
+    }
+}
+
+@media (max-width:1148px) {
+    header .header .mid .content h1 {
+        font-size: 19px;
+    }
+    header .header .mid .content p {
+        font-size: 11px;
+    }
+    header .header .mid .img img {
+        width: 80%;
+    }
+}
+
+@media (max-width:541px) {
+    header .header .mid .content {
+        width: 280px;
+    }
+    header .header .mid .content h3 {
+        font-size: 16px;
+    }
+    header .header .mid .content h1 {
+        font-size: 20px;
+    }
+    header .header .mid .content p {
+        font-size: 16px;
+    }
+    header .header .mid .img img {
+        width: 250px;
+    }
+    header .header .end .social {
+        width: 32%;
+    }
+    header .header .end .social span {
+        font-size: 9px;
+    }
+    header .header .end .mid {
+        width: 25%;
+    }
+    header .header .end .mid h2 {
+        margin: none;
+        animation: none;
+    }
+    header .header .end .mid h3 {
+        margin: none;
+        position: absolute;
+        animation: none;
+    }
+    header .header .end .last {
+        width: 30%;
+    }
+    header .header .end .last .main-last-first .last-fist h3 {
+        width: 4px;
+        height: 4px;
+        margin: 1px;
+    }
+}
+
+@media(max-width:411px) {
+    header .header .start .input input {
+        width: 70%;
+    }
+    header .header .mid .img img {
+        width: 200px;
+    }
+    header .header .end .social a {
+        padding: 3px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:311px) {
+    header .header .start .logo {
+        width: 17%;
+        padding-left: 13px;
+        ;
+    }
+    header .header .start .input {
+        width: 40%;
+        text-align: center;
+    }
+    header .header .start .input input {
+        width: 100%;
+    }
+    header .header .start .menu {
+        width: 15%;
+        padding-right: 15px;
+    }
+    header .header .mid .content .btn button {
+        padding: 8px 10px;
+    }
+    header .header .end .social a {
+        padding: 2px;
+        font-size: 11px;
+    }
+}

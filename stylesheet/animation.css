@@ -1,0 +1,223 @@
+@keyframes ani1 {
+    0% {
+        margin-left: 40%;
+        margin-top: 10%;
+        transform: rotate(75deg);
+    }
+    20% {
+        margin-left: 50%;
+        margin-top: 60px;
+        transform: rotate(160deg);
+        filter: hue-rotate(360deg);
+    }
+    30% {
+        margin-left: 70%;
+        margin-right: 90px;
+        transform: rotate(230deg);
+        filter: hue-rotate(80deg);
+    }
+    60% {
+        margin-left: 50%;
+        margin-top: 30%;
+        transform: rotate(190deg);
+        filter: hue-rotate(190deg);
+    }
+    80% {
+        margin-left: 30%;
+        margin-top: 20%;
+        transform: rotate(160deg);
+        filter: hue-rotate(240deg);
+    }
+    100% {
+        margin-left: 40%;
+        margin-top: 10%;
+        transform: rotate(75deg);
+        filter: hue-rotate(120deg);
+    }
+}
+
+@keyframes ani2 {
+    0% {
+        margin-left: 15%;
+        margin-top: 40%;
+        transform: rotate(75deg);
+    }
+    20% {
+        margin-left: 30%;
+        margin-top: 35%;
+        transform: rotate(160deg);
+        filter: hue-rotate(110deg);
+    }
+    30% {
+        margin-left: 50%;
+        margin-right: 10%;
+        transform: rotate(230deg);
+        filter: hue-rotate(260deg);
+    }
+    60% {
+        margin-left: 40%;
+        margin-top: 30%;
+        transform: rotate(190deg);
+        filter: hue-rotate(180deg);
+    }
+    80% {
+        margin-left: 35%;
+        margin-top: 10%;
+        transform: rotate(160deg);
+        filter: hue-rotate(360deg);
+    }
+    100% {
+        margin-left: 15%;
+        margin-top: 40%;
+        transform: rotate(75deg);
+        filter: hue-rotate(40deg);
+    }
+}
+
+@keyframes ani3 {
+    0% {
+        margin-left: 60%;
+        margin-top: 20%;
+        transform: rotate(75deg);
+    }
+    20% {
+        margin-left: 50%;
+        margin-top: 35%;
+        transform: rotate(160deg);
+    }
+    30% {
+        margin-left: 40%;
+        margin-right: 28%;
+        transform: rotate(230deg);
+    }
+    60% {
+        margin-left: 15%;
+        margin-top: 30%;
+        transform: rotate(190deg);
+    }
+    80% {
+        margin-left: 35%;
+        margin-top: 10%;
+        transform: rotate(160deg);
+    }
+    100% {
+        margin-left: 60%;
+        margin-top: 20%;
+        transform: rotate(75deg);
+    }
+}
+
+@keyframes ani4 {
+    0% {
+        margin-left: 20%;
+        margin-top: 28%;
+        transform: rotate(75deg);
+    }
+    20% {
+        margin-left: 40%;
+        margin-top: 45%;
+        transform: rotate(160deg);
+        filter: hue-rotate(240deg);
+    }
+    30% {
+        margin-left: 35%;
+        margin-right: 60%;
+        transform: rotate(230deg);
+        filter: hue-rotate(140deg);
+    }
+    60% {
+        margin-left: 15%;
+        margin-top: 35%;
+        transform: rotate(190deg);
+        filter: hue-rotate(180deg);
+    }
+    80% {
+        margin-left: 45%;
+        margin-top: 20%;
+        transform: rotate(160deg);
+        filter: hue-rotate(260deg);
+    }
+    100% {
+        margin-left: 20%;
+        margin-top: 28%;
+        transform: rotate(75deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes menuspan {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes menulist {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes ballani1 {
+    0% {
+        margin-right: 0%;
+    }
+    10% {
+        margin-right: 0%;
+    }
+    90% {
+        margin-right: -47%;
+    }
+    96% {
+        /* position: relative; */
+        margin-top: 1px;
+        margin-right: -47%;
+    }
+    100% {
+        /* position: relative; */
+        margin-top: 10px;
+        margin-right: -47%;
+    }
+}
+
+@keyframes ballani2 {
+    0% {
+        margin-left: 0%;
+    }
+    10% {
+        margin-left: 0%;
+    }
+    90% {
+        margin-left: -47%;
+    }
+    96% {
+        /* position: relative; */
+        margin-top: 1px;
+        margin-left: -47%;
+    }
+    100% {
+        /* position: relative; */
+        margin-top: 10px;
+        margin-left: -47%;
+    }
+}
+
+@keyframes lastfirst {
+    0% {
+        margin-right: 0px;
+    }
+    50% {
+        margin-right: 20px;
+    }
+    100% {
+        margin-right: 0px;
+    }
+}
